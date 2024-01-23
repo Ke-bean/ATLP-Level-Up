@@ -1,3 +1,3 @@
 # ATLP LEVEL UP
 
-## GITHUB PAGE CLONE WITH HTML AND CSS
+## WhatsApp page clone with HTML and CSS
