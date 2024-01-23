@@ -3,19 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url("./images/image\ 2.png");
+}
 .container{
-    /* background-color: blue; */
+    background-color: #fff;
+    height: 500px;
+    margin-top:80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 23px;
 }
 .top-img{
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .Traffic{
     width: 45px;
     height: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .compose{
     width: 23px;
@@ -35,6 +43,7 @@
     background-color: gainsboro;
     padding-right:40px;
     padding-left: 5px;
+    font-weight: lighter;
 }
 
 .container{
@@ -45,6 +54,49 @@
     border: 1px solid gray;
     padding: 8px 15px;
     border-radius: 13px;
-    margin-left: 150px;
+    margin-left: 100px;
+    margin-right: 40px;
     background: gainsboro;
+}
+.actions{
+    position: relative;
+}
+.action-msg{
+    margin-left: 20px;
+    position: absolute;
+    bottom: 1px;
+    padding: 10px 22px;
+    background-color: gainsboro;
+    border-radius:43px;
+}
+.action-txt{
+    position: absolute;
+    top: 5px;
+    margin-left: 35px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.actions-1-icon{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.actions-1-icon1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.actions-1-icon1-2{
+    margin-left: 23px;
+    margin-top: 10px;
+}
+.actions-1-txt{
+    margin-left:32px;
+    font-size:12px;
+    color: gray;
+    font-weight: lighter;
+}
+.calls{
+    margin-left: 10px;
+}
+.comm{
+    margin-right: 20px;
 }
